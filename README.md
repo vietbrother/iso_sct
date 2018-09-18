@@ -9,8 +9,8 @@ GRANT ALL PRIVILEGES ON *.* TO 'root'@'gpon-db-config' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 
 Nếu user chua có thì tạo bằng lệnh
-CREATE USER '<username_mysql>'@'<host>' IDENTIFIED BY '<password_mysql>';
-GRANT ALL ON *.* TO '<username_mysql>'@'<host>';
+CREATE USER '<username_mysql>'@'<host_ip>' IDENTIFIED BY '<password_mysql>';
+GRANT ALL ON *.* TO '<username_mysql>'@'<host_ip>';
 this will allow you to connect to mysql from any host. 192.168.1.7 is the ip of your computer.
 
 ==
